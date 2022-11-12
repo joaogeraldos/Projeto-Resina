@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    html, body {
+        background-color: #FCF6F7; 
+    }
+    
+    header {
+        background-color: #FCF6F7;
+        box-shadow: 1px 1px 8px #bfa4ac70;
+       display: flex; 
+       align-items: center;
+       justify-content: space-between;
+    }
+    
+    header img {
+        width: 10vw;
+    }
+
+    header h1 {
+        margin-right: 40%;
+        color: #e2597b;
+        text-shadow: 1px 1px 0 #ac02af;
+    }
+    
+    main {
+        margin: auto;
+    }
+    .primeira-sessao {
+        background-color: #446996;
+        height: 33.33%;
+        position: relative;
+        box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.342);
+    }
+    
+    .primeira-sessao img {
+        width:50%;
+        position: relative;
+        left: 50%;
+    }
+    
+    .primeira-sessao p {
+        position: absolute;
+        left: 10vw;
+        top: 22%;
+        z-index: 1;
+        font-size: 4.5rem;
+        font-style: oblique;
+        color: #ffffff;
+        text-shadow: 2px 2px 0px #0583F2;
+        line-height: 15vh;
+    }
+
+    
+    .segunda-sessao {
+        background-color: #e2597cd8;
+        height: 33.33%;
+        position: relative;
+        box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.253);
+    }
+    
+    .segunda-sessao img {
+        width:40%;
+        position: relative;
+        left: 60%;
+    }
+    
+    .segunda-sessao > p {
+        position: absolute;
+        left: 10vw;
+        top: 22%;
+        z-index: 1;
+        font-size: 4.5em;
+        font-style: oblique;
+        color: #8C1434;
+        text-shadow: 1px 1px 0px #fb05ffcc;
+        line-height: 15vh;
+    }
+    
+    .terceira-sessao {
+        background-color: #1F4CA6;
+        height: 33.33%;
+        position: relative;
+        box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.432);
+    }
+    
+    .terceira-sessao img {
+        width:50%;
+        position: relative;
+        left: 50%;
+    }
+    
+    .terceira-sessao p {
+        position: absolute;
+        left: 10vw;
+        top: 22%;
+        z-index: 1;
+        font-size: 4.5em;
+        font-style: oblique;
+        color: white;
+        text-shadow: 1px 1px 0px #0583F2;
+        line-height: 15vh;
+    }
+    
+    aside {
+        background-color: #BFA4AC;
+        padding: 10px;
+    }
+    
+    aside p {
+        color: white;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.658);
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        font-size: 2em;
+    }
+    
+    aside ul {
+        list-style-position: inside;
+        margin-left: 100px;
+        columns: 2;
+    }
+
+    aside ul li {
+        padding-top: 10px;
+    }
+    
+    aside li a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.616);
+        font-size: 1.3em;
+       padding-top: 10px;
+    }
+    
+    footer {
+        background-color: #000000c4;
+        color: white;
+        padding: 10px;
+        text-align: center;
+        text-shadow: 1px 1px 0px rgba(0, 0, 255, 0.507);
+    }
+}
